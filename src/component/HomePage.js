@@ -8,6 +8,8 @@ const HomePage = () => {
   const [filterdata, setfilterdata] = useState("");
   const [sort, setSort] = useState("");
 
+  
+
   useEffect(() => {
     const fetch = async () => {
       const datas = await axios.get("https://dummyjson.com/products?limit=100");

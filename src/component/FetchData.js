@@ -3,6 +3,9 @@ import Product from "./Product";
 
 const FetchData = ({ filterdata, data, sort }) => {
   console.log(filterdata, "kjhg");
+
+
+  
   return (
     <div>
       <div className="product space-y-9  grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 w-full  items-baseline lg:gap-0 gap-4 p-4 ">

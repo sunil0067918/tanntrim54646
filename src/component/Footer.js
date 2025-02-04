@@ -5,6 +5,7 @@ const Footer = () => {
     <>
     
     <footer
+    
         className="bg-[#141414]  mt-16 p-2 w-full
       "
       >
